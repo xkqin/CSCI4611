@@ -1,0 +1,4 @@
+/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build/CMakeFiles/install.dir
+/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build/CMakeFiles/a4-dance.dir
+/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build/CMakeFiles/ALL_BUILD.dir
+/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build/CMakeFiles/ZERO_CHECK.dir

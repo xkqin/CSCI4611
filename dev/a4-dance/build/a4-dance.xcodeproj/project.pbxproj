@@ -1,0 +1,865 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4449971870B74E99874D0740 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B9F03ABEFC1F46A09BB85799 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				137A56CE970A46DA85C0962B /* CMake Rules */,
+			);
+			dependencies = (
+				76668646C3CC4AC69940A40A /* PBXTargetDependency */,
+				E04D07022ECA442EBD80A4A2 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		6646B5C0E5174E728117CA04 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 72DBF1D0BBFE4FDE823D73E1 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				CD249DEBB8C644E2A73B0ECA /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				DE448B05264B41A49E952FB0 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		81396500F78F4EC08919F1B0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0C5EEA2D39144318B1D9BFB4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				F3643166D61040FFA9FF91F5 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		087C50BB4D1F41D89E3EAC7B /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/simple_parser.h */ = {isa = PBXBuildFile; fileRef = 6AAFA21720D349A4AC19A70A /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/simple_parser.h */; };
+		18EC4CE37D04440B91329604 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 4FCDD0360B6542EBB0863F22 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/CMakeLists.txt */; };
+		1CBC43B294564971B93A8F13 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/motion_clip.h */ = {isa = PBXBuildFile; fileRef = B0F5CF93EA4D4FD8B8523C03 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/motion_clip.h */; };
+		23DEDB78E8A344DD9D6E1462 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/amc_util.h */ = {isa = PBXBuildFile; fileRef = 61AE8DD8BAAE4833B57E5E45 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/amc_util.h */; };
+		29D44A1433184B6488086BB3 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/config.h */ = {isa = PBXBuildFile; fileRef = EAD6682C5E3F485A8D310F82 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/config.h */; };
+		50EF7769FA1541DBA2897039 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/config.h.in */ = {isa = PBXBuildFile; fileRef = 4123B18E002041B18D49EA84 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/config.h.in */; };
+		6D404171C1A348268D891DC7 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/main.cc */ = {isa = PBXBuildFile; fileRef = 37AEB74CAC3C4C4494477353 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/main.cc */; };
+		89E8F52996054010B9093A2E /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/README.md */ = {isa = PBXBuildFile; fileRef = 7E620E42CD5A4ACDA4BC2C9E /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/README.md */; };
+		8C3B3C13BDAD4DCCAE509E94 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/skeleton.cc */ = {isa = PBXBuildFile; fileRef = 51D6145A285741E69033DA0E /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/skeleton.cc */; };
+		904E221249EC489492435CCD /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/simple_parser.cc */ = {isa = PBXBuildFile; fileRef = 0CFCB76F4C1A4EF482C86071 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/simple_parser.cc */; };
+		A2BD6EED36EA4923B5F0092D /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/dance_app.cc */ = {isa = PBXBuildFile; fileRef = 305F42ED35DB4F58A64F0F03 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/dance_app.cc */; };
+		B0867DC2BBEA49A3A98DDFB3 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/skeleton.h */ = {isa = PBXBuildFile; fileRef = F3E077DC95614C33B0532497 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/skeleton.h */; };
+		B4EB82EDACB541FF98BE5B7C /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/dance_app.h */ = {isa = PBXBuildFile; fileRef = 8A1FFE8F980F4EB9B6AFF81D /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/dance_app.h */; };
+		B5A7E4BE15A24FE88B6BE64C /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/pose.h */ = {isa = PBXBuildFile; fileRef = A3E91D9DB564402DB697A707 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/pose.h */; };
+		D6707B6829C84DBA9837F32D /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/pose.cc */ = {isa = PBXBuildFile; fileRef = FE7D6FC0395E4D2D94AD62FD /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/pose.cc */; };
+		D78BADF808E54AE1ABA51117 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/motion_clip.cc */ = {isa = PBXBuildFile; fileRef = 74244373F4F942A391FEA180 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/motion_clip.cc */; };
+		D949478513C04D83872CC378 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/animated_character.cc */ = {isa = PBXBuildFile; fileRef = A9A9630D9CEB4DB4B1328C34 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/animated_character.cc */; };
+		FA83AE0DD0E44B4691D878B3 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/animated_character.h */ = {isa = PBXBuildFile; fileRef = FCAD32931C164B78BDACEAB5 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/animated_character.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		29C18FD890F0455287F99967 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		9C0664E7A1854934A0F97B79 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		C0B506F806E145FBAA5D1305 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		E52BE1445F414C9092A9129B /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		01863DBC4E6C409CA40D8C98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFAF3E7530AC4C679E312724 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81396500F78F4EC08919F1B0;
+			remoteInfo = ZERO_CHECK;
+		};
+		2465C2EDAFBE41D4B4314621 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFAF3E7530AC4C679E312724 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81396500F78F4EC08919F1B0;
+			remoteInfo = ZERO_CHECK;
+		};
+		40262CF749E143FE9C040A44 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFAF3E7530AC4C679E312724 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4449971870B74E99874D0740;
+			remoteInfo = ALL_BUILD;
+		};
+		E54FB8425A564FD886FC8411 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFAF3E7530AC4C679E312724 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D782A546035F432EB74F576D;
+			remoteInfo = "a4-dance";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CFCB76F4C1A4EF482C86071 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/simple_parser.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = simple_parser.cc; path = simple_parser.cc; sourceTree = SOURCE_ROOT; };
+		305F42ED35DB4F58A64F0F03 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/dance_app.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = dance_app.cc; path = dance_app.cc; sourceTree = SOURCE_ROOT; };
+		37AEB74CAC3C4C4494477353 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/main.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cc; path = main.cc; sourceTree = SOURCE_ROOT; };
+		3CD493D4E96549DC8B78FAE5 /* a4-dance */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = "a4-dance"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4123B18E002041B18D49EA84 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/config.h.in */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = config.h.in; path = config.h.in; sourceTree = SOURCE_ROOT; };
+		4FCDD0360B6542EBB0863F22 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		51D6145A285741E69033DA0E /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/skeleton.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = skeleton.cc; path = skeleton.cc; sourceTree = SOURCE_ROOT; };
+		61AE8DD8BAAE4833B57E5E45 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/amc_util.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = amc_util.h; path = amc_util.h; sourceTree = SOURCE_ROOT; };
+		6AAFA21720D349A4AC19A70A /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/simple_parser.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = simple_parser.h; path = simple_parser.h; sourceTree = SOURCE_ROOT; };
+		74244373F4F942A391FEA180 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/motion_clip.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = motion_clip.cc; path = motion_clip.cc; sourceTree = SOURCE_ROOT; };
+		7E620E42CD5A4ACDA4BC2C9E /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/README.md */ = {isa = PBXFileReference; explicitFileType = sourcecode; fileEncoding = 4; name = README.md; path = README.md; sourceTree = SOURCE_ROOT; };
+		8A1FFE8F980F4EB9B6AFF81D /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/dance_app.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = dance_app.h; path = dance_app.h; sourceTree = SOURCE_ROOT; };
+		A3E91D9DB564402DB697A707 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/pose.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = pose.h; path = pose.h; sourceTree = SOURCE_ROOT; };
+		A9A9630D9CEB4DB4B1328C34 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/animated_character.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = animated_character.cc; path = animated_character.cc; sourceTree = SOURCE_ROOT; };
+		AE41046B33A14C73A8AAEC62 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B0F5CF93EA4D4FD8B8523C03 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/motion_clip.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = motion_clip.h; path = motion_clip.h; sourceTree = SOURCE_ROOT; };
+		C932201006B446FE87B13061 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		EAD6682C5E3F485A8D310F82 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/config.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = config.h; path = config.h; sourceTree = SOURCE_ROOT; };
+		F3E077DC95614C33B0532497 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/skeleton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = skeleton.h; path = skeleton.h; sourceTree = SOURCE_ROOT; };
+		FCAD32931C164B78BDACEAB5 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/animated_character.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = animated_character.h; path = animated_character.h; sourceTree = SOURCE_ROOT; };
+		FE7D6FC0395E4D2D94AD62FD /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/pose.cc */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = pose.cc; path = pose.cc; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		06C48722E1B740DDA463EB4C /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		355CE654900640C2BCE3E7F7 = {
+			isa = PBXGroup;
+			children = (
+				4AE848FAD603436FA5A6D52D /* a4-dance */,
+				77E8766FA950453D8544D992 /* ALL_BUILD */,
+				B8A1ABCB2BAB4C17AB2FD286 /* ZERO_CHECK */,
+				AA4CF4B40BC047E3BC19C113 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4AE848FAD603436FA5A6D52D /* a4-dance */ = {
+			isa = PBXGroup;
+			children = (
+				9CFA0C3F949240489F28227A /* Source Files */,
+				BA320416A7114BD584C72436 /* Header Files */,
+				4FCDD0360B6542EBB0863F22 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/CMakeLists.txt */,
+				7E620E42CD5A4ACDA4BC2C9E /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/README.md */,
+			);
+			name = "a4-dance";
+			sourceTree = "<group>";
+		};
+		77E8766FA950453D8544D992 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				06C48722E1B740DDA463EB4C /* CMake Rules */,
+				AE41046B33A14C73A8AAEC62 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		9CFA0C3F949240489F28227A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9A9630D9CEB4DB4B1328C34 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/animated_character.cc */,
+				305F42ED35DB4F58A64F0F03 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/dance_app.cc */,
+				37AEB74CAC3C4C4494477353 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/main.cc */,
+				74244373F4F942A391FEA180 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/motion_clip.cc */,
+				FE7D6FC0395E4D2D94AD62FD /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/pose.cc */,
+				0CFCB76F4C1A4EF482C86071 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/simple_parser.cc */,
+				51D6145A285741E69033DA0E /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/skeleton.cc */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		AA4CF4B40BC047E3BC19C113 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CD493D4E96549DC8B78FAE5 /* a4-dance */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8A1ABCB2BAB4C17AB2FD286 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				DA2E10255B1D41A5B54407A6 /* CMake Rules */,
+				C932201006B446FE87B13061 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		BA320416A7114BD584C72436 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				61AE8DD8BAAE4833B57E5E45 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/amc_util.h */,
+				FCAD32931C164B78BDACEAB5 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/animated_character.h */,
+				EAD6682C5E3F485A8D310F82 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/config.h */,
+				4123B18E002041B18D49EA84 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/config.h.in */,
+				8A1FFE8F980F4EB9B6AFF81D /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/dance_app.h */,
+				B0F5CF93EA4D4FD8B8523C03 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/motion_clip.h */,
+				A3E91D9DB564402DB697A707 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/pose.h */,
+				6AAFA21720D349A4AC19A70A /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/simple_parser.h */,
+				F3E077DC95614C33B0532497 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/skeleton.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		DA2E10255B1D41A5B54407A6 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D782A546035F432EB74F576D /* a4-dance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC13BDE36D2D4E01B130C133 /* Build configuration list for PBXNativeTarget "a4-dance" */;
+			buildPhases = (
+				3212FD21BD3A4D1FA32956F2 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96062C192CDA499795E96CDF /* PBXTargetDependency */,
+			);
+			name = "a4-dance";
+			productName = "a4-dance";
+			productReference = 3CD493D4E96549DC8B78FAE5 /* a4-dance */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFAF3E7530AC4C679E312724 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0710;
+			};
+			buildConfigurationList = A5D5CF0D152240E992453128 /* Build configuration list for PBXProject "a4-dance" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				9C0664E7A1854934A0F97B79 /* Debug */,
+				29C18FD890F0455287F99967 /* Release */,
+				C0B506F806E145FBAA5D1305 /* MinSizeRel */,
+				E52BE1445F414C9092A9129B /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 355CE654900640C2BCE3E7F7;
+			projectDirPath = ../;
+			projectRoot = "";
+			targets = (
+				4449971870B74E99874D0740 /* ALL_BUILD */,
+				81396500F78F4EC08919F1B0 /* ZERO_CHECK */,
+				D782A546035F432EB74F576D /* a4-dance */,
+				6646B5C0E5174E728117CA04 /* install */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		137A56CE970A46DA85C0962B /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build -f /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		4A5E92E06E644FC28B2511D4 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		7F04D37C46314002BF1BBD27 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A6CAF313AB114082B36BBA37 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		CD249DEBB8C644E2A73B0ECA /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build -f /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build/CMakeScripts/install_postBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		F3643166D61040FFA9FF91F5 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build -f /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3212FD21BD3A4D1FA32956F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D949478513C04D83872CC378 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/animated_character.cc */,
+				A2BD6EED36EA4923B5F0092D /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/dance_app.cc */,
+				6D404171C1A348268D891DC7 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/main.cc */,
+				D78BADF808E54AE1ABA51117 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/motion_clip.cc */,
+				D6707B6829C84DBA9837F32D /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/pose.cc */,
+				904E221249EC489492435CCD /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/simple_parser.cc */,
+				8C3B3C13BDAD4DCCAE509E94 /* /Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/skeleton.cc */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76668646C3CC4AC69940A40A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D782A546035F432EB74F576D /* a4-dance */;
+			targetProxy = E54FB8425A564FD886FC8411 /* PBXContainerItemProxy */;
+		};
+		96062C192CDA499795E96CDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81396500F78F4EC08919F1B0 /* ZERO_CHECK */;
+			targetProxy = 2465C2EDAFBE41D4B4314621 /* PBXContainerItemProxy */;
+		};
+		DE448B05264B41A49E952FB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4449971870B74E99874D0740 /* ALL_BUILD */;
+			targetProxy = 40262CF749E143FE9C040A44 /* PBXContainerItemProxy */;
+		};
+		E04D07022ECA442EBD80A4A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81396500F78F4EC08919F1B0 /* ZERO_CHECK */;
+			targetProxy = 01863DBC4E6C409CA40D8C98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00F44DB8F2CC49EF80D3D3CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		0731FD2E341141E3B89FEBCB /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		152DD0F8991F4F60887ABE80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		20F89F9403CF458F812EF208 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		22BB68B72C3E41779542A274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NANOGUI,ALLOW_INIT_GFX_CTX_IN_CONSTRUCTOR);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/administrator/Desktop/repo-qinxx215/include/MinGfx-1.0","/Users/administrator/Desktop/repo-qinxx215/include","/Users/administrator/Desktop/repo-qinxx215/include/nanovg");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/administrator/Desktop/repo-qinxx215/lib";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14    -isystem /Users/administrator/Desktop/repo-qinxx215/include/MinGfx-1.0 -isystem /Users/administrator/Desktop/repo-qinxx215/include -isystem /Users/administrator/Desktop/repo-qinxx215/include/nanovg -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/administrator/Desktop/repo-qinxx215/lib/MinGfx-1.0/libMinGfx.a /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Users/administrator/Desktop/repo-qinxx215/lib/libnanogui.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "a4-dance";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		33255F67D94F436A872AD412 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		3C97F4F9AD9C4DCD8292D765 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NANOGUI,ALLOW_INIT_GFX_CTX_IN_CONSTRUCTOR);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/administrator/Desktop/repo-qinxx215/include/MinGfx-1.0","/Users/administrator/Desktop/repo-qinxx215/include","/Users/administrator/Desktop/repo-qinxx215/include/nanovg");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/administrator/Desktop/repo-qinxx215/lib";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14        -DNDEBUG -isystem /Users/administrator/Desktop/repo-qinxx215/include/MinGfx-1.0 -isystem /Users/administrator/Desktop/repo-qinxx215/include -isystem /Users/administrator/Desktop/repo-qinxx215/include/nanovg -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/administrator/Desktop/repo-qinxx215/lib/MinGfx-1.0/libMinGfx.a /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Users/administrator/Desktop/repo-qinxx215/lib/libnanogui.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "a4-dance";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4562108830DA47599DA17915 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		56F36E38714B4A63B7E7D9AE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		57A8093C07224816BF502ECF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		762E56C5924B4BB3B4DD6747 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		80ED394010874BABB153A299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		8DA65D68A2D943D69CB6EA2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build/build";
+			};
+			name = Release;
+		};
+		8E2AD1E424AD4F7F9302EADB /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build/build";
+			};
+			name = RelWithDebInfo;
+		};
+		8E33AB084AFE4335A50204F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		964EAD452E8940678F868E3F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build/build";
+			};
+			name = MinSizeRel;
+		};
+		C74E9180EF6940139E63061F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		F61C553823CF4407B5BB791C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk;
+				SYMROOT = "/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build/build";
+			};
+			name = Debug;
+		};
+		F67379579DBE44F5BE72F092 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NANOGUI,ALLOW_INIT_GFX_CTX_IN_CONSTRUCTOR);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/administrator/Desktop/repo-qinxx215/include/MinGfx-1.0","/Users/administrator/Desktop/repo-qinxx215/include","/Users/administrator/Desktop/repo-qinxx215/include/nanovg");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/administrator/Desktop/repo-qinxx215/lib";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14     -DNDEBUG -isystem /Users/administrator/Desktop/repo-qinxx215/include/MinGfx-1.0 -isystem /Users/administrator/Desktop/repo-qinxx215/include -isystem /Users/administrator/Desktop/repo-qinxx215/include/nanovg -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/administrator/Desktop/repo-qinxx215/lib/MinGfx-1.0/libMinGfx.a /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Users/administrator/Desktop/repo-qinxx215/lib/libnanogui.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "a4-dance";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		FBF252DFAE7344EEB8BDFCD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				FRAMEWORK_SEARCH_PATHS = (/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",USE_OPENGL,OSX,USE_NANOGUI,ALLOW_INIT_GFX_CTX_IN_CONSTRUCTOR);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = ("/Users/administrator/Desktop/repo-qinxx215/include/MinGfx-1.0","/Users/administrator/Desktop/repo-qinxx215/include","/Users/administrator/Desktop/repo-qinxx215/include/nanovg");
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "/Users/administrator/Desktop/repo-qinxx215/lib";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = " -std=c++14     -DNDEBUG -isystem /Users/administrator/Desktop/repo-qinxx215/include/MinGfx-1.0 -isystem /Users/administrator/Desktop/repo-qinxx215/include -isystem /Users/administrator/Desktop/repo-qinxx215/include/nanovg -iframework /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks   ";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  /Users/administrator/Desktop/repo-qinxx215/lib/MinGfx-1.0/libMinGfx.a /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL.tbd /Users/administrator/Desktop/repo-qinxx215/lib/libnanogui.dylib";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "a4-dance";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/administrator/Desktop/repo-qinxx215/dev/a4-dance/build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C5EEA2D39144318B1D9BFB4 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152DD0F8991F4F60887ABE80 /* Debug */,
+				57A8093C07224816BF502ECF /* Release */,
+				20F89F9403CF458F812EF208 /* MinSizeRel */,
+				C74E9180EF6940139E63061F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		72DBF1D0BBFE4FDE823D73E1 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E33AB084AFE4335A50204F6 /* Debug */,
+				33255F67D94F436A872AD412 /* Release */,
+				4562108830DA47599DA17915 /* MinSizeRel */,
+				56F36E38714B4A63B7E7D9AE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A5D5CF0D152240E992453128 /* Build configuration list for PBXProject "a4-dance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F61C553823CF4407B5BB791C /* Debug */,
+				8DA65D68A2D943D69CB6EA2E /* Release */,
+				964EAD452E8940678F868E3F /* MinSizeRel */,
+				8E2AD1E424AD4F7F9302EADB /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B9F03ABEFC1F46A09BB85799 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80ED394010874BABB153A299 /* Debug */,
+				00F44DB8F2CC49EF80D3D3CE /* Release */,
+				0731FD2E341141E3B89FEBCB /* MinSizeRel */,
+				762E56C5924B4BB3B4DD6747 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DC13BDE36D2D4E01B130C133 /* Build configuration list for PBXNativeTarget "a4-dance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22BB68B72C3E41779542A274 /* Debug */,
+				FBF252DFAE7344EEB8BDFCD2 /* Release */,
+				F67379579DBE44F5BE72F092 /* MinSizeRel */,
+				3C97F4F9AD9C4DCD8292D765 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFAF3E7530AC4C679E312724 /* Project object */;
+}
