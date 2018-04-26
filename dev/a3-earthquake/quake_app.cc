@@ -206,10 +206,6 @@ void QuakeApp::DrawUsingOpenGL() {
         else{
         position = earth_.LatLongToSphere(ea.latitude(), ea.longitude());
         }
-//        if(rt == 0)
-//        {
-//            position = earth_.LatLongToPlane(ea.latitude(), ea.longitude());
-//        }
         if(qt >=0.0 && qt <=1.0){
             if(count % 2 == 0)
             {
@@ -220,6 +216,11 @@ void QuakeApp::DrawUsingOpenGL() {
                 position = Point3::Lerp(earth_.LatLongToSphere(ea.latitude(), ea.longitude()),earth_.LatLongToPlane(ea.latitude(), ea.longitude()),(1-qt));
             }
         }
+                if(rt == 0)
+                {
+                    position = earth_.LatLongToPlane(ea.latitude(), ea.longitude());
+                }
+
         
 
         float psize = ea.magnitude() / 200.0;

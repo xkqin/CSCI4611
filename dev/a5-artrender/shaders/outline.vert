@@ -18,7 +18,7 @@ layout(location = 2) in vec3 leftNormal;
 layout(location = 3) in vec3 rightNormal;
 
 void main() {
-    vec3 displacedVertex = vertex;
+    vec3 outputV = vertex;
     
 
     vec3 normalLeft = (normalMatrix * vec4(leftNormal, 0)).xyz;
@@ -30,7 +30,7 @@ void main() {
     (dot(normalRight, DIR) < 0)) ||
     ((dot(normalLeft, DIR) < 0) &&
     (dot(normalRight, DIR) >= 0))) {
-        displacedVertex += thickness * normal;
+        outputV += thickness * normal;
     }
-    gl_Position = projectionMatrix * modelViewMatrix * vec4(displacedVertex,1);
+    gl_Position = projectionMatrix * modelViewMatrix * vec4(outputV,1);
 }

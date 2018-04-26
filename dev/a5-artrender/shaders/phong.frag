@@ -25,16 +25,16 @@ void main() {
     vec3 e = normalize(-Position);
     vec3 h = normalize(sl + e);
     
-     color.xyz += (ka*Ia).xyz;
-    color.xyz += (kd*Id *
-     dot(n, sl)).xyz;
-     color.xyz += (ks*Is *pow(dot(n,h),s)).xyz;
+    color = (ka*Ia);
+    color += (kd*Id *
+    max(dot(n,sl),0));
+     color += (ks*Is *pow(max(dot(n,h),0),s));
     
     
-    //vec4 amb = ka *Ia;
-    // vec4 diffuse = kd*Id * max(dot(n,l),0);
-    // vec4 sp = ks*Is*pow(max(dot(n,h),0),s);
-    // color = amb + diffuse +sp;
+  //  vec4 amb = ka *Ia;
+   //  vec4 diffuse = kd*Id * max(dot(n,sl),0);
+   //  vec4 sp = ks*Is*pow(max(dot(n,h),0),s);
+   //  color = amb + diffuse +sp;
     
 
 

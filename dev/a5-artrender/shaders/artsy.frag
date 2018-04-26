@@ -26,10 +26,10 @@ void main() {
     vec3 e = normalize(-Position);
     vec3 h = normalize(sl + e);
     
-    color.xyz += (ka*Ia).xyz;
-    color.xyz += (kd*Id *
-    texture(diffuseRamp, vec2(max(0.5 * dot(n, sl) + 0.5, 0), 0))).xyz;
-    color.xyz += (ks*Is *texture(specularRamp, vec2(pow(max(dot(n,h), 0), s), 0))).xyz;
+    color = (ka*Ia);
+    color += (kd*Id *
+    texture(diffuseRamp, vec2(max(0.5 * dot(n, sl) + 0.5, 0), 0)));
+    color += (ks*Is *texture(specularRamp, vec2(pow(max(dot(n,h), 0), s), 0)));
     
     
 }

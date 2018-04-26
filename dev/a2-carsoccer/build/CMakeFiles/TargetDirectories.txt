@@ -1,0 +1,7 @@
+/Users/administrator/Desktop/repo-qinxx215/dev/a2-carsoccer/build/CMakeFiles/install/local.dir
+/Users/administrator/Desktop/repo-qinxx215/dev/a2-carsoccer/build/CMakeFiles/install/strip.dir
+/Users/administrator/Desktop/repo-qinxx215/dev/a2-carsoccer/build/CMakeFiles/install.dir
+/Users/administrator/Desktop/repo-qinxx215/dev/a2-carsoccer/build/CMakeFiles/list_install_components.dir
+/Users/administrator/Desktop/repo-qinxx215/dev/a2-carsoccer/build/CMakeFiles/rebuild_cache.dir
+/Users/administrator/Desktop/repo-qinxx215/dev/a2-carsoccer/build/CMakeFiles/edit_cache.dir
+/Users/administrator/Desktop/repo-qinxx215/dev/a2-carsoccer/build/CMakeFiles/a2-carsoccer.dir
